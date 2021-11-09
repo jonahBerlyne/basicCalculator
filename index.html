@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <title>Document</title>
+</head>
+<body>
+ <div class="calculator">
+  <div class="display" id="display">
+   <div class="screen-last" id="lastDisplay"></div>
+   <div class="screen-current" id="currentDisplay">0</div>
+  </div>
+   <div>
+    <button type="button" class="button" onclick="this.blur();" data-number>1</button>
+    <button type="button" class="button" onclick="this.blur();" data-number>2</button>
+    <button type="button" class="button" onclick="this.blur();" data-number>3</button>
+   </div>
+   <div>
+    <button type="button" class="button" onclick="this.blur();" data-number>4</button>
+    <button type="button" class="button" onclick="this.blur();" data-number>5</button>
+    <button type="button" class="button" onclick="this.blur();" data-number>6</button>
+   </div>
+   <div>
+    <button type="button" class="button" onclick="this.blur();" data-number>7</button>
+    <button type="button" class="button" onclick="this.blur();" data-number>8</button>
+    <button type="button" class="button" onclick="this.blur();" data-number>9</button>
+   </div>
+   <div>
+    <button type="button" class="button" onclick="this.blur();" data-number>0</button>
+   </div>
+   <div>
+    <button type="button" class="button" onclick="this.blur();" data-operator>+</button>
+    <button type="button" class="button" onclick="this.blur();" data-operator>-</button>
+    <button type="button" class="button" onclick="this.blur();" data-operator>*</button>
+    <button type="button" class="button" onclick="this.blur();" data-operator>/</button>
+   </div>
+   <div>
+    <button type="button" class="button" onclick="this.blur();" id="equalsBtn">=</button>
+   </div>
+   <div>
+    <button type="button" class="button" onclick="this.blur();" id="clearBtn">Clear</button>
+   </div>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
